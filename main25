@@ -3,17 +3,17 @@ using namespace std;
 
 int main()
 {
-    // Задача: Визначення вартості 1 кг шоколадних цукерок
-    // та 1 кг печива
+    // Task: Determine the price of 1 kg of chocolate candies
+    // and 1 kg of cookies
 
-    // Оголошення змінних
+    // Variable declaration
     double X, A, Y, B;
     double priceCandy, priceCookies, times;
 
-    // Виведення повідомлення про початок задачі
+    // Display a message at the beginning of the task
     cout << "Task: Find the price of 1 kg of candies and cookies" << endl;
 
-    // Введення даних
+    // Input data
     cout << "Enter the weight of candies X: ";
     cin >> X;
 
@@ -26,16 +26,16 @@ int main()
     cout << "Enter the price of cookies B: ";
     cin >> B;
 
-    // Обчислення вартості 1 кг шоколадних цукерок
+    // Calculate the price of 1 kg of chocolate candies
     priceCandy = A / X;
 
-    // Обчислення вартості 1 кг печива
+    // Calculate the price of 1 kg of cookies
     priceCookies = B / Y;
 
-    // Обчислення, у скільки разів цукерки дорожчі за печиво
+    // Calculate how many times more expensive candies are than cookies
     times = priceCandy / priceCookies;
 
-    // Виведення результатів
+    // Display the results
     cout << "Price of 1 kg of candies: " << priceCandy << " UAH" << endl;
     cout << "Price of 1 kg of cookies: " << priceCookies << " UAH" << endl;
     cout << "Candies are " << times << " times more expensive than cookies" << endl;
