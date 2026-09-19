@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Задача: Визначення вартості 1 кг шоколадних цукерок
+    // та 1 кг печива
+
+    // Оголошення змінних
+    double X, A, Y, B;
+    double priceCandy, priceCookies, times;
+
+    // Виведення повідомлення про початок задачі
+    cout << "Task: Find the price of 1 kg of candies and cookies" << endl;
+
+    // Введення даних
+    cout << "Enter the weight of candies X: ";
+    cin >> X;
+
+    cout << "Enter the price of candies A: ";
+    cin >> A;
+
+    cout << "Enter the weight of cookies Y: ";
+    cin >> Y;
+
+    cout << "Enter the price of cookies B: ";
+    cin >> B;
+
+    // Обчислення вартості 1 кг шоколадних цукерок
+    priceCandy = A / X;
+
+    // Обчислення вартості 1 кг печива
+    priceCookies = B / Y;
+
+    // Обчислення, у скільки разів цукерки дорожчі за печиво
+    times = priceCandy / priceCookies;
+
+    // Виведення результатів
+    cout << "Price of 1 kg of candies: " << priceCandy << " UAH" << endl;
+    cout << "Price of 1 kg of cookies: " << priceCookies << " UAH" << endl;
+    cout << "Candies are " << times << " times more expensive than cookies" << endl;
+
+    return 0;
+}
