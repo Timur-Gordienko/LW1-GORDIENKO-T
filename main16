@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Task: Find the value of the function y = 3x^6 - 6x^2 - 7
+
+    // Variable declaration
+    double x, y;
+
+    // Display the task name
+    cout << "Task: Find the value of the function y = 3x^6 - 6x^2 - 7" << endl;
+
+    // Input variable x
+    cout << "Enter x: ";
+    cin >> x;
+
+    // Calculate the value of the function
+    y = 3 * x * x * x * x * x * x - 6 * x * x - 7;
+
+    // Display the result
+    cout << "The value of y: " << y << endl;
+
+    return 0;
+}
