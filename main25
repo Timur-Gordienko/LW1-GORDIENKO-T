@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;
-
+//begin 25
 int main()
 {
-    // Task: Determine the price of 1 kg of chocolate candies
-    // and 1 kg of cookies
+    // Завдання: Визначити ціну 1 кг шоколадних цукерок
+    // і 1 кг печива
 
-    // Variable declaration
+    // Оголошення змінної
     double X, A, Y, B;
     double priceCandy, priceCookies, times;
 
-    // Display a message at the beginning of the task
+    // Відобразити повідомлення на початку завдання
     cout << "Task: Find the price of 1 kg of candies and cookies" << endl;
 
-    // Input data
+    // Вхідні дані
     cout << "Enter the weight of candies X: ";
     cin >> X;
 
@@ -26,16 +26,16 @@ int main()
     cout << "Enter the price of cookies B: ";
     cin >> B;
 
-    // Calculate the price of 1 kg of chocolate candies
+    // Обчислити ціну 1 кг шоколадних цукерок
     priceCandy = A / X;
 
-    // Calculate the price of 1 kg of cookies
+    // Обчислити ціну 1 кг печива
     priceCookies = B / Y;
 
-    // Calculate how many times more expensive candies are than cookies
+    // Обчислити, у скільки разів цукерки дорожчі за печиво
     times = priceCandy / priceCookies;
 
-    // Display the results
+    // Відобразити результати
     cout << "Price of 1 kg of candies: " << priceCandy << " UAH" << endl;
     cout << "Price of 1 kg of cookies: " << priceCookies << " UAH" << endl;
     cout << "Candies are " << times << " times more expensive than cookies" << endl;
