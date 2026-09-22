@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//begin 16
 int main()
 {
     // Завдання: Знайти значення функції y = 3x^6 - 6x^2 - 7
